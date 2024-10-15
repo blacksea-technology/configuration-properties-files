@@ -1,0 +1,50 @@
+server:
+    port: 0 
+    forward-headers-strategy: framework 
+spring:
+    docker:
+        compose:
+          enabled: true
+          file: docker-compose.yml
+    main:
+        allow-circular-references: true
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+        properties:
+            hibernate:
+                format_sql: true
+                jdbc:
+                    lob:
+                        non_contextual_creation: true
+    datasource:
+        url: jdbc:postgresql://smartcustomsdb_primary:5432/smartcustomsdb
+        username: admin
+        password: admin123
+        driver-class-name: org.postgresql.Driver
+    mvc:
+        dispatch-options-request: true
+    data:
+        redis:
+            host: redis-server
+            port: 6379
+    cloud:
+        consul:
+          config:
+            enabled: false
+          host: consul1  
+          port: 8500
+          discovery:
+            prefer-ip-address: true
+            enabled: true    
+            instance-id: ${spring.application.name}:${random.int[1,99]}
+            register-health-check: false         
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+logging.level:
+    org.springframework.cloud:
+      consul: DEBUG  

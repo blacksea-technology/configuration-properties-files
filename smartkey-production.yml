@@ -1,0 +1,6 @@
+#Swagger-UI documentation
+springdoc:
+    api-docs:
+        path: /smartkey-docs
+    swagger-ui:
+        path: /smartkey-doc.html    
