@@ -1,0 +1,6 @@
+#Swagger-UI documentation
+springdoc:
+    api-docs:
+        path: /transit-docs
+    swagger-ui:
+        path: /transit-doc.html     

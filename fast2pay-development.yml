@@ -1,0 +1,6 @@
+#Swagger-UI documentation
+springdoc:
+    api-docs:
+        path: /fast2pay-docs
+    swagger-ui:
+        path: /fast2pay-doc.html     

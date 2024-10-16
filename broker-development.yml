@@ -1,0 +1,6 @@
+#Swagger-UI documentation
+springdoc:
+    api-docs:
+        path: /broker-docs
+    swagger-ui:
+        path: /broker-doc.html     

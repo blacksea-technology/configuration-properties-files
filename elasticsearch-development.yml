@@ -1,0 +1,6 @@
+#Swagger-UI documentation
+springdoc:
+    api-docs:
+        path: /elasticsearch-docs
+    swagger-ui:
+        path: /elasticsearch-doc.html     

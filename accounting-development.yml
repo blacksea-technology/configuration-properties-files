@@ -1,0 +1,6 @@
+#Swagger-UI documentation
+springdoc:
+    api-docs:
+        path: /accounting-docs
+    swagger-ui:
+        path: /accounting-doc.html     

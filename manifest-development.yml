@@ -1,0 +1,6 @@
+#Swagger-UI documentation
+springdoc:
+    api-docs:
+        path: /manifest-docs
+    swagger-ui:
+        path: /manifest-doc.html     
