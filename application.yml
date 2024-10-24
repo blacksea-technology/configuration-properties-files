@@ -19,8 +19,8 @@ spring:
                     lob:
                         non_contextual_creation: true
     datasource:
-        url: ${SPRING_DATASOURCE_URL} #jdbc:postgresql://smartcustomsdb_primary:5432/smartcustomsdb
-        username: ${SPRING_DATASOURCE_USERNAME} #admin
+        url: jdbc:postgresql://smartcustomsdb_primary:5432/smartcustomsdb #${SPRING_DATASOURCE_URL} 
+        username: admin #${SPRING_DATASOURCE_USERNAME} 
         password: ${SPRING_DATASOURCE_PASSWORD} #'{cipher}AQB2bTXUizSvFtaTtzmCYMA1/55NLkhdEDuqIcRUVHfrcgaoB/NXsN3ivRIN0d7bfJFoGRiFtmOXmRR/SUU33WauOvOWVxEMq46llHWwbsBpskyH9ksAENfeXwCm4BGUF9VjZHSGF/kczPWGdb/TWWWpGaiIxfivPtRnDMu7Xv5YF18oPFUX3dRNgHISxIMi3QCc6VToJ4Kjfx/P9bW3DgtkhbKop80J7klx5XzV/JPwAGZg/laY6HZyfSDblTUzLpn10bPWClU6yIhg4u9rATwN3NIgjLTwKo8uZoR5ejEuXDu6wnEhQUrQibFUB8cibDRd+zH9c35Gi+cVykxiOHwo5L1y4I2Au/gB5s7pwNU290uBHsr4ptQwYOpiFvuI1Js='
         driver-class-name: org.postgresql.Driver
     mvc:
