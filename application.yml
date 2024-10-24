@@ -19,21 +19,21 @@ spring:
                     lob:
                         non_contextual_creation: true
     datasource:
-        url: jdbc:postgresql://smartcustomsdb_primary:5432/smartcustomsdb #${SPRING_DATASOURCE_URL} 
-        username: admin #${SPRING_DATASOURCE_USERNAME} 
-        password: ${SPRING_DATASOURCE_PASSWORD} #'{cipher}AQB2bTXUizSvFtaTtzmCYMA1/55NLkhdEDuqIcRUVHfrcgaoB/NXsN3ivRIN0d7bfJFoGRiFtmOXmRR/SUU33WauOvOWVxEMq46llHWwbsBpskyH9ksAENfeXwCm4BGUF9VjZHSGF/kczPWGdb/TWWWpGaiIxfivPtRnDMu7Xv5YF18oPFUX3dRNgHISxIMi3QCc6VToJ4Kjfx/P9bW3DgtkhbKop80J7klx5XzV/JPwAGZg/laY6HZyfSDblTUzLpn10bPWClU6yIhg4u9rATwN3NIgjLTwKo8uZoR5ejEuXDu6wnEhQUrQibFUB8cibDRd+zH9c35Gi+cVykxiOHwo5L1y4I2Au/gB5s7pwNU290uBHsr4ptQwYOpiFvuI1Js='
+        url: '{cipher}AQAoUxCWQZl4D8gInge7Z5ysnMAe/1U+qdGS4BVqQg0yXGFeVlzz3LXydWGFYRhhcsw5twyAJNKHThNsLhutIk2IO5ZjyJGAN1/O0L7MYxuoxBZflU/zbepjGZSKMau3iad/4t9IjXtDkuEdoBrDBkZoD1t8U8/oF8bTMLvcMbf/2HyH4UcuLXhT+YK6Kbj7BmvUVbzg6GFro1OP80SNpI/+hb6TKqdYpscCaiGC9c/ExWk0/RqWxl9fq8RaRj5wppIfIlMkH5Px/8Gr5T9IcsmtyVKKQ+3M61vznWKlLbVQvj0yqq3GpxDtpc10qPo7elMIXocG0XCuB+NRzPSAOo2491LF/W07BcXAAy+Q6C3KoiKoEcicZ6QqajNhcAPlbmBKIZF2s5Wd3+7xewxtZ43dWzFqflYRZWDEsBfUTDVPj8Ay5qlrN/vDFSLoeUKk+Lo='
+        username: '{cipher}AQAt7dQPaBetlarbAW7B0GSKCr2JfcaOI1sZimK9EYhohqdM5eg2/yO7lG9Y6P1Oz0g+JZSXVQ5oJN22qi7rUxWwg6PNuXpBbuFQ4t/3jlEzIxXJkYBOYIbzMwm1WMefAps4kvLBQaByParMZeezuHB8h0X0JqRhZggtQzxhinUQyCC5bOVB7rkG/xhQNzd85T1VmwbxBIsODcrc7U9fsIBbbBk7wfVF9HLiqtESY6/RO8DqP7eKIHhOhYj2X8FSQeEcApV4TTx1YylxEwlyQc1G3ugsViEy2KJg9IHSJudbKpRzlsY7It7yykD9LtTpS2HHNLBdJD5UHrLqHT2mEG0hUfaQt2HdnG5TwqVGSUAai9p3Smbky1jvWb5QCVCcrSE=' 
+        password: '{cipher}AQB2bTXUizSvFtaTtzmCYMA1/55NLkhdEDuqIcRUVHfrcgaoB/NXsN3ivRIN0d7bfJFoGRiFtmOXmRR/SUU33WauOvOWVxEMq46llHWwbsBpskyH9ksAENfeXwCm4BGUF9VjZHSGF/kczPWGdb/TWWWpGaiIxfivPtRnDMu7Xv5YF18oPFUX3dRNgHISxIMi3QCc6VToJ4Kjfx/P9bW3DgtkhbKop80J7klx5XzV/JPwAGZg/laY6HZyfSDblTUzLpn10bPWClU6yIhg4u9rATwN3NIgjLTwKo8uZoR5ejEuXDu6wnEhQUrQibFUB8cibDRd+zH9c35Gi+cVykxiOHwo5L1y4I2Au/gB5s7pwNU290uBHsr4ptQwYOpiFvuI1Js='
         driver-class-name: org.postgresql.Driver
     mvc:
         dispatch-options-request: true
     data:
         redis:
-            host: redis-server
+            host: '{cipher}AQBF0IET++sEnWSuAdIg8l4HACeV5l/qmwxYGEnezT4fIZxVOqATqb7ZRxo0DP/ChDBaDlY8NKY9SD42SX2/Gzx4scNXhDSOLslcOXrgHk8IY4MWLKGkhoiHcTRDhq0R0lfxDODoMQ6qLhSqBIfRso3WS3sAkkkMiHB95NO2p42xNn3gBi3h/R0wyjD6TjKp+C2l2I0MkxOh5D+7xK5beDeHhPFJCuXkuuk4CFijqSWw+tvEGD901jieFAI3RBTZkW+CuIGRheC+ViNyEFvIV5exueTSyOnPxmJV+vYlDl6WnPY+9nqCAeB98Jy/n34WJcCVUAUHpVJkely3Nh1VmhDrdi5s2UHebm2i3yuK0u3qoi1zUx/q4rdcpp3jIFg09ns='
             port: 6379
     cloud:
         consul:
           config:
             enabled: false
-          host: consul-server-leader  
+          host: '{cipher}AQCLmmrrC16mapeAHiE6rAqiscHK083b8p5goE3T/DLUpUoBqLOjCqyw8LJ/PWiSuCJsOjt0a1q7uoNvYmCj/uVlrZFETJyedXOSKSghvpTQcI1JnYckis6Zp57foSvg7I1bf60qn2c5x/hHe7IX4WlcGEuPpBwiIzGpKwbLP5pvV0uXPygsc9Iusihc/UvA/dVclItlQGHfDQQ+iMWrdIGfOAhb9Yfj2VLTaJIoHWPkISo+3kEoI7vQgLK7EXtxwrYV3GHue9k4pNVCIoyM2/GESc6IlqHFaeWY3eVqSBcCOwCOuqHD8mW5n6IFMA8SdWAY7dgD5dcyBTnn9I0FFISIwmdG/rbKHUA6RlX5t5786qnMkvELhCcEmulvzITuPGzJ86eY3WIkLWmBOwMmYVeb'  
           port: 8500
           discovery:
             prefer-ip-address: true
