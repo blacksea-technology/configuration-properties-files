@@ -1,0 +1,6 @@
+#Swagger-UI documentation
+springdoc:
+    api-docs:
+        path: /globaltracker-docs
+    swagger-ui:
+        path: /globaltracker-doc.html    
