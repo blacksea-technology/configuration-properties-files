@@ -6,6 +6,10 @@ spring:
         compose:
           enabled: true
           file: docker-compose.yml
+    task:
+        scheduling:
+          pool:
+            size: 5  #Setting the pool size for the scheduler
     main:
         allow-circular-references: true
     jpa:
