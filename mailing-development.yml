@@ -2,8 +2,8 @@ spring:
     mail:
         host: smtp.gmail.com
         port: 587
-        username: noreply@blackseatechnology.com
-        password: tavn kmce vuvf gvzo
+        username: '{cipher}AQBj21nZuBmHtB1R7jbs/9x6RpiG8HqvMQZNYI5s1XKWBRs4VWBEgdxl9gp1n6jeRR3dN0fEX48s7zVCOSTF7S1MYhhM/vugnkI0wS2nD/u1YQDx+n9GMQ19I5h8IpfDA5kqiU/cwuz2aoRLyXmSq24Jz4gft5Hm9fGBbZYi/gyqEM97FSz+VNdZrzva3Jbg/ScMbF/HV02r6tUWKsvtLnCk7+hU4H7fpwbc2IsJci7yEpYzzPo+vao4UgOK1jLKzAAmu2JUjxzor6QXOu5208IBylQ6A6torpLtOUjelBVjxgB7EXT4qXhXjHXufNj8JAxmzoVt99LAQ7km41EqDFF1K6SAnSLQ5VpVyUpzhPS5fqN8KPF3L6XtyokeVTMbyfpkEbuCXZ81m02CnY5hmKQ1'
+        password: '{cipher}AQCHf+0ujcUc2xmvgf5FVu80D9975f/oPYOTv2qILLuHS6tky/De+ug8W9BAuppxNWsuMXp12ZF3RkRWWOxhAIgJ1l77OV4PZerMtq/dfUHplY/JZTK+ClnGSMOKTwd2QCfct5v1OQfW6kv2QXenQZFkcfowfnHQnQw893Zehf7xlIxRh3SaoovZxAarwb8NIOEo98DHXegeY5zNP73JAB5rXk/v1uGYdeuBJHvW2Xh6H8kGX+idKEonVGphH3PowP3RTaA7hfi+v1dNMBKAEGkpGCYP/4mCICp2JgIl01z1yAXq2Sl/miUMBGhJBxK3uYZczL9UF+IC1vPjHNIieHGOlU660zgs945sVH9NRwe4yCBmaMGKX3UOgawumKfxLvFnzZNX+fk2+IVQDa/6x8at'
         properties:
           mail:
             smtp:
