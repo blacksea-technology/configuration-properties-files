@@ -1,6 +1,6 @@
 #Swagger-UI documentation
 springdoc:
     api-docs:
-        path: /manifest-docs
+        path: /wepayou-docs
     swagger-ui:
-        path: /manifest-doc.html    
+        path: /wepayou-doc.html    
